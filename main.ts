@@ -1,6 +1,10 @@
 import { serve } from 'https://deno.land/std@0.155.0/http/server.ts'
 
-const files = [...Deno.readDirSync('./static')]
+const files: Deno.DirEntry[] = []
+
+for await (const dir of Deno.readDir('./static')) {
+  files.push(dir)
+}
 
 async function handleRequest(request: Request): Promise<Response> {
   const { pathname } = new URL(request.url)
