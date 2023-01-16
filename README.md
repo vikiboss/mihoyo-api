@@ -2,7 +2,7 @@
 
 endpoints:
 
-- [roles.json](https://gia.deno.dev/roles.json)
-- [strategies.json](https://gia.deno.dev/strategies.json)
-- [portals.json](https://gia.deno.dev/portals.json)
-- [info.json](https://gia.deno.dev/info.json)
+- [roles.json](https://ys.viki.moe/roles.json)
+- [strategies.json](https://ys.viki.moe/strategies.json)
+- [portals.json](https://ys.viki.moe/portals.json)
+- [info.json](https://ys.viki.moe/info.json)
