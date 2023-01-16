@@ -1,24 +1,22 @@
 import { serve } from 'https://deno.land/std@0.155.0/http/server.ts'
 
-const files: Deno.DirEntry[] = []
+const files: Map<string, Uint8Array> = new Map()
 
-for await (const dir of Deno.readDir('./static')) {
-  files.push(dir)
+for await (const { name } of Deno.readDir('./static')) {
+  const data = await Deno.readFile(`./static/${name}`)
+  files.set(name, data)
 }
 
-async function handleRequest(request: Request): Promise<Response> {
+function handleRequest(request: Request): Response {
   const { pathname } = new URL(request.url)
+  const name = pathname.replace('/', '')
 
-  for (const file of files) {
-    if (file.name === pathname.replace('/', '')) {
-      const file = await Deno.readFile(`./static${pathname}`)
-
-      return new Response(file, {
-        headers: {
-          'content-type': 'application/json; charset=utf-8'
-        }
-      })
-    }
+  if (files.has(name)) {
+    return new Response(files.get(name), {
+      headers: {
+        'content-type': 'application/json; charset=utf-8'
+      }
+    })
   }
 
   return new Response('404', {
