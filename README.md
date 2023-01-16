@@ -1,8 +1,6 @@
-# genshin-impact-api
+# API data for Genshin Helper
 
-API data for genshin-helper
-
-api data endpoints:
+endpoints:
 
 - [roles.json](https://gia.deno.dev/roles.json)
 - [strategies.json](https://gia.deno.dev/strategies.json)
