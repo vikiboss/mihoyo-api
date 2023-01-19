@@ -40,8 +40,8 @@
     "browser": false
   },
   {
-    "name": "原神抽卡超真实模拟器",
-    "description": "首次加载时间较长，但最还原游戏内的抽卡",
+    "name": "原神抽卡超真实模拟",
+    "description": "首次加载较久，但绝对真实！",
     "url": "https://wishsimulator.app",
     "icon": "https://wishsimulator.app/favicon.ico",
     "highlight": false,
