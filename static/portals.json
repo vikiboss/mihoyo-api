@@ -4,7 +4,7 @@
     "description": "原神成就记录、查缺补漏工具",
     "url": "https://cocogoat.work/achievement",
     "icon": "https://77.xyget.cn/favicon.ico",
-    "hightlight": false,
+    "highlight": false,
     "browser": false
   },
   {
@@ -12,7 +12,7 @@
     "description": "通过 UID 查询展示柜角色详情",
     "url": "https://enka.network/",
     "icon": "https://enka.network/favicon.png",
-    "hightlight": false,
+    "highlight": false,
     "browser": false
   },
   {
@@ -20,7 +20,7 @@
     "description": "游戏社区，包含各种资讯和攻略",
     "url": "https://bbs.nga.cn/thread.php?fid=650&rand=889",
     "icon": "https://bbs.nga.cn/favicon.ico",
-    "hightlight": false,
+    "highlight": false,
     "browser": false
   },
   {
@@ -28,15 +28,23 @@
     "description": "原神百科、攻略、小工具、资讯",
     "url": "https://wiki.biligame.com/ys",
     "icon": "https://www.bilibili.com/favicon.ico",
-    "hightlight": false,
+    "highlight": false,
     "browser": false
   },
   {
     "name": "原神抽卡模拟器（英文）",
     "description": "原神抽卡模拟器，客官来十连？",
-    "url": "https://gi-wish-simulator.uzairashraf.dev/",
+    "url": "https://gi-wish-simulator.uzairashraf.dev",
     "icon": "https://ys.mihoyo.com/main/favicon.ico",
-    "hightlight": false,
+    "highlight": false,
+    "browser": false
+  },
+  {
+    "name": "原神抽卡超真实模拟器",
+    "description": "首次加载时间较长，但最还原游戏内的抽卡",
+    "url": "https://wishsimulator.app",
+    "icon": "https://wishsimulator.app/favicon.ico",
+    "highlight": false,
     "browser": false
   },
   {
@@ -44,7 +52,7 @@
     "description": "一位专做原神攻略的人气UP主",
     "url": "https://space.bilibili.com/431073645/video?tid=4&keyword=&order=pubdate",
     "icon": "https://www.bilibili.com/favicon.ico",
-    "hightlight": false,
+    "highlight": false,
     "browser": false
   },
   {
@@ -52,7 +60,7 @@
     "description": "也是一位原神区的人气UP主",
     "url": "https://space.bilibili.com/1773346/video?tid=4&keyword=&order=pubdate",
     "icon": "https://www.bilibili.com/favicon.ico",
-    "hightlight": false,
+    "highlight": false,
     "browser": false
   },
   {
@@ -60,7 +68,7 @@
     "description": "直达新版本前瞻直播，领原石！",
     "url": "https://live.bilibili.com/21987615",
     "icon": "https://www.bilibili.com/favicon.ico",
-    "hightlight": false,
+    "highlight": false,
     "browser": false
   },
   {
@@ -68,7 +76,7 @@
     "description": "随时查看官方最新动态",
     "url": "https://weibo.com/ysmihoyo",
     "icon": "https://m.weibo.cn/favicon.ico",
-    "hightlight": false,
+    "highlight": false,
     "browser": false
   },
   {
@@ -76,7 +84,7 @@
     "description": "直达微博超话，签到领福利",
     "url": "https://weibo.com/p/100808fc439dedbb06ca5fd858848e521b8716",
     "icon": "https://m.weibo.cn/favicon.ico",
-    "hightlight": false,
+    "highlight": false,
     "browser": false
   },
   {
@@ -84,7 +92,7 @@
     "description": "最新的原神活动、资讯、攻略",
     "url": "https://www.taptap.cn/app/168332/topic",
     "icon": "https://assets.tapimg.com/web-app/favicon.ico",
-    "hightlight": false,
+    "highlight": false,
     "browser": false
   },
   {
@@ -92,7 +100,7 @@
     "description": "打不过就进来摇人！吹水也欢迎",
     "url": "https://jq.qq.com/?_wv=1027&k=InHF9niP",
     "icon": "https://qzonestyle.gtimg.cn/qzone/qzact/act/external/tiqq/logo.png",
-    "hightlight": true,
+    "highlight": true,
     "browser": true
   }
 ]
