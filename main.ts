@@ -14,14 +14,14 @@ function handleRequest(request: Request): Response {
   if (files.has(name)) {
     return new Response(files.get(name), {
       headers: {
-        'content-type': 'application/json; charset=utf-8'
+        'Content-Type': 'application/json; charset=utf-8'
       }
     })
   }
 
   return new Response('404', {
     headers: {
-      'content-type': 'text/plain; charset=utf-8'
+      'Content-Type': 'text/plain; charset=utf-8'
     }
   })
 }
