@@ -1,6 +1,6 @@
 # API data for Genshin Helper
 
-endpoints:
+Endpoints:
 
 - [roles.json](https://ys.viki.moe/roles.json)
 - [strategies.json](https://ys.viki.moe/strategies.json)
