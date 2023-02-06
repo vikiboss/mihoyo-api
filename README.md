@@ -1,4 +1,4 @@
-# API data for Genshin Helper
+# API data for Genshin Helper（原神助手）
 
 Endpoints:
 
