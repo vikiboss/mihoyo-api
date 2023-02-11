@@ -96,6 +96,12 @@
     "alt": "快速检索查看各个版本的活动介绍和奖励攻略等"
   },
   {
+    "name": "历史祈愿卡池列表",
+    "url": "https://bbs.mihoyo.com/ys/obc/content/6001/detail",
+    "hightlight": false,
+    "alt": "快速检索查看历史祈愿卡池列表"
+  },
+  {
     "name": "角色PV合集",
     "url": "https://bbs.mihoyo.com/ys/obc/channel/map/80",
     "hightlight": false,
