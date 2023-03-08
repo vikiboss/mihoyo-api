@@ -8,6 +8,14 @@
     "browser": false
   },
   {
+    "name": "咪咕免登录云游戏",
+    "description": "免登录！无视电脑配置随时玩原神",
+    "url": "https://www.migufun.com/miguplay/middleGame/gameplay/500276110",
+    "icon": "https://www.migufun.com/miguplay/middleGame/gameplay/static/image/migu-icon.png",
+    "highlight": false,
+    "browser": false
+  },
+  {
     "name": "Enka Network",
     "description": "通过 UID 查询展示柜角色详情",
     "url": "https://enka.network/",
