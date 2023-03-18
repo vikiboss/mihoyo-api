@@ -2,13 +2,13 @@
   {
     "name": "观测枢 - 攻略",
     "url": "https://bbs.mihoyo.com/ys/strategy",
-    "hightlight": false,
+    "hightlight": true,
     "alt": "米游社官方推出的原神攻略站"
   },
   {
     "name": "观测枢 - 百科",
     "url": "https://bbs.mihoyo.com/ys/obc",
-    "hightlight": false,
+    "hightlight": true,
     "alt": "米游社官方推出的原神Wiki百科"
   },
   {
@@ -98,13 +98,13 @@
   {
     "name": "历史祈愿卡池列表",
     "url": "https://bbs.mihoyo.com/ys/obc/content/6001/detail",
-    "hightlight": false,
+    "hightlight": true,
     "alt": "快速检索查看历史祈愿卡池列表"
   },
   {
     "name": "角色PV合集",
     "url": "https://bbs.mihoyo.com/ys/obc/channel/map/80",
-    "hightlight": false,
+    "hightlight": true,
     "alt": "快速检索查看各个角色的展示PV和各种剧情过场视频"
   }
 ]
