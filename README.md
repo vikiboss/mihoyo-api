@@ -4,7 +4,7 @@ Fast static data API for [Genshin Helper （原神助手）](https://github.com/
 
 ## Endpoints
 
-- [roles.json](https://ys.viki.moe/roles.json)
+- [roles.json](https://ys.viki.moe/roles.json), See [here](info.md) for field descriptions.
 - [strategies.json](https://ys.viki.moe/strategies.json)
 - [portals.json](https://ys.viki.moe/portals.json)
 - [info.json](https://ys.viki.moe/info.json)

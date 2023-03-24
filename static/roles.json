@@ -1,5 +1,75 @@
 [
   {
+    "name": "米卡",
+    "en_name": "Mika",
+    "element": "Cryo",
+    "rarity": 4,
+    "avatar": {
+      "basic": "https://upload-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Mika.png",
+      "side": "https://upload-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Mika.png",
+      "full": "https://uploadstatic.mihoyo.com/ys-obc/2023/03/18/4328207/37fed1b2ed047eeea78833328ffb27e4_8054575673536318186.png"
+    },
+    "poster": {
+      "mobile": "https://upload-bbs.mihoyo.com/game_record/genshin/character_image/UI_AvatarIcon_Mika@2x.png"
+    },
+    "material": {
+      "talent": {
+        "advance": {
+          "name": "无心的渊镜",
+          "icon": "https://uploadstatic.mihoyo.com/ys-obc/2022/10/24/187743934/c3ea50171e15dcc3f21b7521545e9fcf_4362782648285472242.png",
+          "domain": {
+            "name": "正机之神",
+            "icon": "https://uploadstatic.mihoyo.com/ys-obc/2022/11/01/8797197/b3490c8868f8699d2230a5d6d105be71_8356333016604948321.png"
+          }
+        },
+        "normal": {
+          "name": "「诗文」系列",
+          "icon": "https://uploadstatic.mihoyo.com/ys-obc/2020/07/01/80410800/86fd228ce3aa9b5f4541b34c2ac6c3b4_2768286836747901422.png",
+          "drop": [6, 7, 3],
+          "domain": {
+            "name": "忘却之峡",
+            "icon": "https://uploadstatic.mihoyo.com/ys-obc/2020/03/25/4905523/d6eb786eca21d18f8fd2ff4f63d99bc0_7184326871835672781.png"
+          }
+        }
+      }
+    }
+  },
+  {
+    "name": "迪希雅",
+    "en_name": "Dehya",
+    "element": "Pyro",
+    "rarity": 5,
+    "avatar": {
+      "basic": "https://upload-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Dehya.png",
+      "side": "https://upload-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Dehya.png",
+      "full": "https://uploadstatic.mihoyo.com/ys-obc/2023/03/21/195563531/3499be9a309249e2ddf1a0533af1f4c7_958475410876966785.png"
+    },
+    "poster": {
+      "mobile": "https://upload-bbs.mihoyo.com/game_record/genshin/character_image/UI_AvatarIcon_Dehya@2x.png"
+    },
+    "material": {
+      "talent": {
+        "advance": {
+          "name": "傀儡的悬丝",
+          "icon": "https://uploadstatic.mihoyo.com/ys-obc/2022/11/01/8797197/33b3348f407ee1d2fa550705cea75288_2518119531958092084.png",
+          "domain": {
+            "name": "正机之神",
+            "icon": "https://uploadstatic.mihoyo.com/ys-obc/2022/11/01/8797197/b3490c8868f8699d2230a5d6d105be71_8356333016604948321.png"
+          }
+        },
+        "normal": {
+          "name": "「笃行」系列",
+          "icon": "https://uploadstatic.mihoyo.com/ys-obc/2022/08/20/4820086/1b711ad34080e0d1bccc4b06ff167289_8900037121081736299.png",
+          "drop": [3, 6, 7],
+          "domain": {
+            "name": "昏识塔",
+            "icon": "https://uploadstatic.mihoyo.com/ys-obc/2022/08/22/79683714/95fbe83a90e8470c09406aa12b539127_8862160521167969578.png"
+          }
+        }
+      }
+    }
+  },
+  {
     "name": "艾尔海森",
     "en_name": "Alhaitham",
     "element": "Dendro",
