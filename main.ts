@@ -1,7 +1,7 @@
-import { Application } from 'oak/mod.ts'
+import { oak } from './deps.ts'
 import router from './router.ts'
 
-const app = new Application()
+const app = new oak.Application()
 
 app.use(router.routes())
 

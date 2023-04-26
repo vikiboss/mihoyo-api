@@ -1,5 +1,4 @@
-import { RouterContext } from 'oak/mod.ts'
-import * as path from 'std/path/mod.ts'
+import { oak, path } from '../../deps.ts'
 
 const __dirname = path.dirname(path.fromFileUrl(import.meta.url))
 
@@ -11,7 +10,7 @@ for await (const { name } of Deno.readDir(staticDir)) {
   files.set(name, data)
 }
 
-export default async (ctx: RouterContext<string>, next: () => Promise<unknown>) => {
+export default async (ctx: oak.RouterContext<string>, next: () => Promise<unknown>) => {
   const { filename = '' } = ctx.params
 
   if (files.has(filename)) {
