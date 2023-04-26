@@ -1,0 +1,9 @@
+{
+  "imports": {
+    "std/": "https://deno.land/std@0.184.0/",
+    "oak/": "https://deno.land/x/oak@v12.1.0/"
+  },
+  "tasks": {
+    "dev": "deno run --watch --allow-all main.ts"
+  }
+}
