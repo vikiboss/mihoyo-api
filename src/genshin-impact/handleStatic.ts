@@ -21,7 +21,7 @@ export default (ctx: oak.RouterContext<string>) => {
   const ext = path.extname(filename)
   const exist = files.has(filename)
 
-  if (ext === 'json' && exist) {
+  if (ext === '.json' && exist) {
     ctx.response.headers.set('content-type', 'application/json; charset=utf-8')
   }
 
