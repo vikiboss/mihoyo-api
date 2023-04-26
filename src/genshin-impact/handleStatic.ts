@@ -10,12 +10,14 @@ for await (const { name } of Deno.readDir(staticDir)) {
   files.set(name, data)
 }
 
-export default async (ctx: oak.RouterContext<string>, next: () => Promise<unknown>) => {
-  const { filename = '' } = ctx.params
+const NotFound = {
+  code: 404,
+  msg: 'not found',
+  data: ''
+}
 
-  if (files.has(filename)) {
-    ctx.response.body = files.get(filename)
-  } else {
-    await next()
-  }
+export default (ctx: oak.RouterContext<string>) => {
+  const { filename = '' } = ctx.params
+  const exist = files.has(filename)
+  ctx.response.body = exist ? files.get(filename) : NotFound
 }
