@@ -1,6 +1,11 @@
-# some useful APIs for games developed by mihoyo
+# APIs for games developed by mihoyo
 
-## Genshin Impact
+**Game List**
+
+- Genshin Impact
+- Star Rail
+
+## 1. Genshin Impact
 
 ### Static Data Endpoints
 
@@ -9,7 +14,7 @@
 - [portals.json](https://ys.viki.moe/portals.json)
 - [info.json](https://ys.viki.moe/info.json)
 
-## Star Rail
+## 2. Star Rail
 
 > coming soon.
 
