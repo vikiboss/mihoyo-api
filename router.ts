@@ -1,7 +1,7 @@
-import { Router } from 'oak/mod.ts'
+import { oak } from './deps.ts'
 import gsRouter from './src/genshin-impact/router.ts'
 
-const router = new Router({ prefix: '/v1' })
+const router = new oak.Router({ prefix: '/v1' })
 
 router.all('/', ctx => {
   ctx.response.body = {
