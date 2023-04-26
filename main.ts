@@ -1,24 +1,20 @@
-import { serve } from 'https://deno.land/std@0.180.0/http/server.ts'
+import { oak } from './deps.ts'
+import router from './router.ts'
 
-const files: Map<string, Uint8Array> = new Map()
+const app = new oak.Application()
 
-for await (const { name } of Deno.readDir('./static')) {
-  const data = await Deno.readFile(`./static/${name}`)
-  files.set(name, data)
-}
+app.use(async (ctx, next) => {
+  const isHome = ctx.request.url.pathname === '/'
 
-const headers = { 'Content-Type': 'application/json; charset=utf-8' }
-const notFoundRes = JSON.stringify({ code: 404, msg: 'not found', data: '' })
-
-function handleRequest(request: Request): Response {
-  const { pathname } = new URL(request.url)
-  const name = pathname.replace('/', '')
-
-  if (files.has(name)) {
-    return new Response(files.get(name), { headers })
+  if (isHome) {
+    ctx.response.redirect('/v1')
+  } else {
+    await next()
   }
+})
 
-  return new Response(notFoundRes, { headers })
-}
+app.use(router.routes())
 
-serve(handleRequest)
+console.log('running at http://localhost:8000')
+
+await app.listen({ port: 8000 })

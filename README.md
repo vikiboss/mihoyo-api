@@ -1,13 +1,22 @@
-# API for Genshin Helper
+# APIs for games developed by mihoyo
 
-Fast static data API for [Genshin Helper （原神助手）](https://github.com/vikiboss/gs-helper).
+**Game List**
 
-## Endpoints
+- Genshin Impact
+- Star Rail
 
-- [roles.json](https://ys.viki.moe/roles.json), See [here](info.md) for field descriptions.
-- [strategies.json](https://ys.viki.moe/strategies.json)
-- [portals.json](https://ys.viki.moe/portals.json)
-- [info.json](https://ys.viki.moe/info.json)
+## 1. Genshin Impact
+
+### Static Data Endpoints
+
+- [roles.json](https://mhy-api.deno.dev/v1/gs/static/roles.json), See [here](info.md) for field descriptions.
+- [strategies.json](https://mhy-api.deno.dev/v1/gs/static/strategies.json)
+- [portals.json](https://mhy-api.deno.dev/v1/gs/static/portals.json)
+- [info.json](https://mhy-api.deno.dev/v1/gs/static/info.json)
+
+## 2. Star Rail
+
+> coming soon.
 
 ## Thanks
 
