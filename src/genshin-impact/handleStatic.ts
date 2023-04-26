@@ -1,7 +1,6 @@
 import { RouterContext } from 'oak/mod.ts'
 import * as path from 'std/path/mod.ts'
 
-const __filename = path.fromFileUrl(import.meta.url)
 const __dirname = path.dirname(path.fromFileUrl(import.meta.url))
 
 const staticDir = path.join(__dirname, 'static')
@@ -12,17 +11,12 @@ for await (const { name } of Deno.readDir(staticDir)) {
   files.set(name, data)
 }
 
-export default function () {
-  return async (ctx: RouterContext<string>, next: () => Promise<unknown>) => {
-    const { pathname } = new URL(ctx.request.url)
-    const name = pathname.replace('/', '')
+export default async (ctx: RouterContext<string>, next: () => Promise<unknown>) => {
+  const { filename = '' } = ctx.params
 
-    console.log(name)
-
-    if (files.has(name)) {
-      ctx.response.body = files.get(name)
-    } else {
-      await next()
-    }
+  if (files.has(filename)) {
+    ctx.response.body = files.get(filename)
+  } else {
+    await next()
   }
 }
