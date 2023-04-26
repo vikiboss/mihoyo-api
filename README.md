@@ -9,10 +9,10 @@
 
 ### Static Data Endpoints
 
-- [roles.json](https://mhy-api.deno.dev/v1/gs/static/roles.json), See [here](info.md) for field descriptions.
-- [strategies.json](https://mhy-api.deno.dev/v1/gs/static/strategies.json)
-- [portals.json](https://mhy-api.deno.dev/v1/gs/static/portals.json)
-- [info.json](https://mhy-api.deno.dev/v1/gs/static/info.json)
+- [roles.json](https://mhy.viki.moe/v1/gi/static/roles.json), See [here](info.md) for field descriptions.
+- [strategies.json](https://mhy.viki.moe/v1/gi/static/strategies.json)
+- [portals.json](https://mhy.viki.moe/v1/gi/static/portals.json)
+- [info.json](https://mhy.viki.moe/v1/gi/static/info.json)
 
 ## 2. Star Rail
 

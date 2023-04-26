@@ -1,7 +1,7 @@
 import { oak } from '../../deps.ts'
 import handleStatic from './handleStatic.ts'
 
-const router = new oak.Router({ prefix: '/gs' })
+const router = new oak.Router({ prefix: '/gi' })
 
 router.get('/', ctx => {
   return (ctx.response.body = {
