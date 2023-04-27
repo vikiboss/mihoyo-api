@@ -12,5 +12,6 @@ router.all('/', ctx => {
 })
 
 router.use(gsRouter.routes())
+router.use(gsRouter.allowedMethods())
 
 export default router
